@@ -4,7 +4,7 @@
 __author__ = "wdz"
 class bird:
     """
-    speed:速度
+    speed:速度a
     position:位置
     fit:适应度
     lbestposition:经历的最佳位置
