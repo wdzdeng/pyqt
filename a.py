@@ -5,7 +5,7 @@ __author__ = "wdz"
 import sys
 def a():
     for line in sys.stdin:
-        print(line)
+        print(line)#这是干嘛的
 
 a()
 
