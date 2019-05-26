@@ -657,6 +657,7 @@ class Ui_MainWindow(object):
         self.dialog_1.close()
 
     def retranslateUi(self, MainWindow):
+        #wdzdeng
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.label.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:18pt;\">Satellite Zenith(°):</span></p></body></html>"))
