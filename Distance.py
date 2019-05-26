@@ -130,6 +130,7 @@ class Ui_MainWindow(object):
         return np.tan(degree * np.pi / 180) * self.height
 
     def retranslateUi(self, MainWindow):
+        #11
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.label.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:14pt;\">无人机高度（m）：</span></p></body></html>"))
@@ -144,4 +145,5 @@ class Ui_MainWindow(object):
         self.label_10.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:14pt;\"></span></p></body></html>"))
         self.label_11.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:14pt;\"></span></p></body></html>"))
         self.pushButton.setText(_translate("MainWindow", "执行"))
+
 
